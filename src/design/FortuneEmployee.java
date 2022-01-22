@@ -1,5 +1,5 @@
 package design;
-
+import java.util.Date;
 public class FortuneEmployee {
 
 	/**
@@ -14,7 +14,16 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+		Employees employee1=new Employees("john",005,"manager");
+
+
+		employee1.setDateOfBirth("(01/10/1998)");
+		employee1.setSsn("211-11-1111");
+		employee1.setSalary(111000);
+		employee1.setPhoneNumber("929-322-8742");
+		employee1.setDepartment("CET");
+		employee1.printEmployeeInformation();
+
 
 
 	}

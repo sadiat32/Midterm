@@ -1,6 +1,7 @@
 package databases;
 
-import org.junit.Assert;
+
+import org.testng.Assert;
 
 public class UnitTestConnectDB {
     public static void main(String[] args) {
