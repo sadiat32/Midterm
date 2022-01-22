@@ -21,7 +21,7 @@ public class Numbers {
 		storeRandomNumbers(num);
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 		//Selection Sort
-        Sort algo = new Sort();
+       Sort algo = new Sort();
         algo.selectionSort(num);
         long selectionSortExecutionTime = algo.executionTime;
         System.out.println("Total Execution Time of " + num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " nano sec");
